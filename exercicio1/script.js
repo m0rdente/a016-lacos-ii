@@ -5,3 +5,11 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+if (array.length === 5) {
+for (let i in array) {
+    for (let z of array[i]) {
+        console.log(`jogador ${i}: ${array[i]}`)
+    }
+}
+}
